@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="dist/css/app.min.css">
+    <title>Ipl Dashboard</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="ipl_dashboard">
+                <div class="main_menu">
+                    <div class="logo"><img src="dist/images/logo.png" alt="Logo"></div>
+                    <div class="menu_bar">
+                        <ul>
+                            <li><span class="icon-home"></span><a href="#">Home</a></li>
+                            <li><span class="icon-charts"></span><a class="grey" href="#">Charts</a></li>
+                            <li><span class="icon-game"></span><a class="grey" href="#">Games</a></li>
+                            <li><span class="icon-credit"></span><a class="grey" href="#">Credit</a></li>
+                            <li><span class="icon-chats"></span><a class="grey" href="#">Messages</a></li>
+                            <li><span class="icon-settings"></span><a class="grey" href="#">Settings</a></li>
+                        </ul>
+                    </div>
+                    <div class="talking_section">
+                        <div class="talking_flex">
+                            <div><img src="dist/images/sam.png" alt="Sam"></div>
+                            <div>
+                                <h4><a href="#">Sam is talking</a></h4>
+                            </div>
+                        </div>
+                        <div class="mic_section">
+                            <span class="icon-mic"></span>
+                            <span class="icon-tv"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="match_content">
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Search" class="email" />
+                    </div>
+
+                    <div class="todays_match">
+                        <h2>Todays Match <span class="line"></span></h2>
+                        <img class="match_day_background" src="dist/images/todaysmatch.png" alt="">
+                    </div>
+
+                    <div class="highlights">
+                        <h2>Highlights<span class="line"></span></h2>
+                        <div class="highlights_image">
+                            <div class="team_highlights">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                  
+                                    <div class="swiper-slide">
+                                    <div class="matchday_content">
+                                        <img src="dist/images/matchday.png" alt="">
+                                        <div class="matchday">
+                                            <h4><a href="#">SRH v/s PBK (Yesterday)</a></h4>
+                                            <p>Punjab Kings dished out a disciplined bowling performance </p>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide">
+                                    <div class="matchday_content">
+                                        <img src="dist/images/dhoni.png" alt="">
+                                        <div class="matchday">
+                                            <h4><a href="#">CSK v/s KKR (Yesterday)</a></h4>
+                                            <p>Chennai Super Kings beat KKR by 2 wickets to claim top spot. </p>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide">
+                                    <div class="matchday_content">
+                                        <img src="dist/images/rcbv.png" alt="">
+                                        <div class="matchday">
+                                            <h4><a href="#">RCB v/s MI (Sept 27, 2021)</a></h4>
+                                            <p>Harshal Patel hat-trick helps RCB beat Mumbai Indians by 54 runs</p>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide">
+                                    <div class="matchday_content">
+                                        <img src="dist/images/matchday.png" alt="">
+                                        <div class="matchday">
+                                            <h4><a href="#">SRH v/s PBK (Yesterday)</a></h4>
+                                            <p>Punjab Kings dished out a disciplined bowling performance </p>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide">
+                                    <div class="matchday_content">
+                                        <img src="dist/images/dhoni.png" alt="">
+                                        <div class="matchday">
+                                            <h4><a href="#">CSK v/s KKR (Yesterday)</a></h4>
+                                            <p>Chennai Super Kings beat KKR by 2 wickets to claim top spot. </p>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide">
+                                    <div class="matchday_content">
+                                        <img src="dist/images/rcbv.png" alt="">
+                                        <div class="matchday">
+                                            <h4><a href="#">RCB v/s MI (Sept 27, 2021)</a></h4>
+                                            <p>Harshal Patel hat-trick helps RCB beat Mumbai Indians by 54 runs</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                              </div>                          
+
+                        </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="point_table_bg">
+                    <div class="sign_in">
+                        <div class="bell"><img src="dist/images/bell.png" alt="Bell"></div>
+                        <div class="avatar"><img src="dist/images/avatar.png" alt="Avatar"></div>
+                    </div>
+                    <div class="point_table_line">
+                        <h2>Points Table<span class="line lines"></span></h2>
+                    </div>
+                    
+                    <div class="point_table">
+                        <ul>
+                            <li><a href="#"><h2>TEAMS</h2></a></li>
+                            <li><a href="#">M</a></li>
+                            <li><a href="#">W</a></li>
+                            <li><a href="#">L</a></li>
+                            <li><a href="#">T</a></li>
+                            <li><a href="#">PTS</a></li>
+                            <li><a href="#">NRR</a></li>
+                        </ul>
+                    </div>
+                    <div class="active_row">
+                        <ul>
+                            <li><img src="dist/images/rcb.png" alt="RCB"></li>  
+                            <li>8</li>
+                            <li>6</li>
+                            <li>2</li>
+                            <li>0</li>
+                            <li>12</li>
+                            <li>+0.547</li>
+                        </ul>
+                    </div>
+                    <div class="active_row">
+                        <ul>
+                            <li><img src="dist/images/csk.png" alt="CSK"></li>
+                            <li>7</li>
+                            <li>5</li>
+                            <li>2</li>
+                            <li>0</li>
+                            <li>10</li>
+                            <li>+1.263</li>
+                        </ul>
+                    </div>
+                    <div class="active_row">
+                        <ul>
+                            <li><img src="dist/images/dc.png" alt="DC"></li>
+                            <li>7</li>
+                            <li>5</li>
+                            <li>2</li>
+                            <li>0</li>
+                            <li>10</li>
+                            <li>-0.171</li>
+                        </ul>
+                    </div>
+                    <div class="active_row">
+                        <ul>
+                            <li><img src="dist/images/mi.png" alt="MI"></li>
+                            <li>7</li>
+                            <li>4</li>
+                            <li>3</li>
+                            <li>0</li>
+                            <li>8</li>
+                            <li>+0.062</li>
+                        </ul>
+                    </div>
+                    <div class="active_row">
+                        <ul>
+                            <li><img src="dist/images/rr.png" alt="RR"></li>
+                            <li>7</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>0</li>
+                            <li>6</li>
+                            <li>-0.190</li>
+                        </ul>
+                    </div>
+                    <div class="active_row">
+                        <ul>
+                            <li><img src="dist/images/kilp.png" alt="PJ"></li>
+                            <li>8</li>
+                            <li>3</li>
+                            <li>5</li>
+                            <li>0</li>
+                            <li>6</li>
+                            <li>-0.368</li>
+                        </ul>
+                    </div>
+                    <div class="active_row">
+                        <ul>
+                            <li><img src="dist/images/kkr.png" alt="KKR"></li>
+                            <li>7</li>
+                            <li>2</li>
+                            <li>5</li>
+                            <li>0</li>
+                            <li>4</li>
+                            <li>-0.494</li>
+                        </ul>
+                    </div>
+                    <div class="active_row">
+                        <ul>
+                            <li><img src="dist/images/srh.png" alt="SRH"></li>
+                            <li>7</li>
+                            <li>1</li>
+                            <li>6</li>
+                            <li>0</li>
+                            <li>2</li>
+                            <li>-0.623</li>
+                        </ul>
+                    </div>
+
+                     <div class="orange_cap">
+                        <h2>Orange Cap Leaderboard<span class="orange_cap_line"></span></h2>
+                        <img src="dist/images/dhawan.png" alt="Orange Cap">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="dist/js/app.js"></script>
+</body>
+</html>

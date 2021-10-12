@@ -1,0 +1,199 @@
+body{
+    font-family: Inter;
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.ipl_dashboard{
+    display: flex;
+}
+.main_menu{
+    width: 180px;
+    height: 900px;
+    background-color: #282833;
+    .menu_bar{
+        height: 650px;
+    }
+    .logo img{
+        padding: 35px 0px 20px 0px ;
+    }
+    padding: 0 30px 0 25px;
+    li{
+        padding-top: 50px;
+        font-size: 20px;
+        a{
+            padding-left: 20px;
+        }
+    }
+}
+.talking_flex{
+    display: flex;
+    grid-gap: 15px;
+    padding: 10px 0;
+    h4{
+        font-size: 10px;
+        padding: 12px 0;
+    }
+}
+.mic_section{
+    padding: 10px 15px;
+    .icon-mic{
+        padding-right: 10px;
+    }
+}
+.match_content{
+    width: 800px;
+    height: 900px;
+    background-color: #000;
+}
+.todays_match{
+    width: 900px;
+    height: 400px;
+    position: relative;
+    h2{
+        color: #fff;
+        padding: 35px 50px;
+    }
+}
+.match_day_background{
+    width: 90%;
+    height: 420px;
+    padding: 0 30px;
+    position: absolute;
+    top: -40px;
+}
+.team_highlights{
+    width: 800px;
+}
+.highlights{
+    width: 900px;
+    height: 200px;
+    position:relative;
+    h2{
+        color: #fff;
+        padding: 30px 30px;
+    }
+}
+.highlights_image{
+    display: flex;
+    grid-gap: 5px;
+    img{
+        width: 225px;
+        height: 250px;
+        margin-left: 22px;
+    }
+}
+.matchday_content{
+    position: relative;
+}
+.matchday{
+    width: 200px;
+    position: absolute;
+    top: 165px;
+    left: 40px;
+    color: #fff;
+    h4{
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 100;
+    }
+}
+.dhoni{
+    width: 200px;
+    position: absolute;
+    top: 165px;
+    left: 65px;
+    color: #fff;
+    h4{
+        padding-top: 20px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+.point_table_bg{
+    width: 100%;
+    background-color: #282833;
+    padding: 40px;
+    padding-top: 170px;
+    position: relative;
+}
+.point_table{
+    ul{
+        display: flex;
+        grid-gap: 24px;
+        margin-bottom: 20px;
+        padding-top: 40px;
+    } 
+    a{
+        color: #fff;
+    }
+    li{
+        a{
+            font-weight: 700;
+        }
+        h2{
+            font-weight: 700;
+            font-size: 14px;
+            padding-right: 40px;
+        }
+    }
+}
+.active_row{
+    ul{
+        display: flex;
+        grid-gap: 25px;
+        padding-top: 8px;
+    }
+    li{
+        color: #fff;
+        a{
+            padding-top: 5px;
+            font-size: 12px;
+        }
+        img{
+            position: relative;
+            bottom: 8px;
+            padding-right: 55px;
+        }
+        h3{
+            font-size: 12px;
+            padding: 4px 2px 0 0;
+        }
+    }
+}
+
+.point_table_line{
+    position: relative;
+    color: #fff;
+}
+.sign_in{
+    display: flex;
+    grid-gap: 10px;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+
+.orange_cap{
+    padding-top: 25px;
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+    img{
+        position: absolute;
+        top: 30px;
+    }
+}
+.swiper-button-next:after{
+    color: #fff;
+    font-size: 15px;
+}
+.swiper-button-prev:after{
+    color: #fff;
+    font-size: 15px;
+}
